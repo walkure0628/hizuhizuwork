@@ -1,0 +1,28 @@
+.btn {
+	&-facebook {
+		display: block;
+		position: relative;
+		width: 300px;
+		background: #1e88e5;
+		color: #fff;
+		padding: 15px;
+		margin: 0 auto 30px;
+		text-align: center;
+		text-decoration: none;
+		box-sizing: border-box;
+		border-radius: 10px;
+		transition: all .3s linear;
+		box-shadow: 0 2px 2px 0 rgba(0,0,0,.12), 0 2px 2px 0 rgba(0,0,0,.24);
+		&:hover {
+  			box-shadow: 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12), 0 2px 4px -1px rgba(0,0,0,.2);
+			opacity: .5;
+		}
+		i {
+			color: #fff;
+			margin-left: 8px;
+		}
+	}
+	&-arrow {
+		
+	}
+}

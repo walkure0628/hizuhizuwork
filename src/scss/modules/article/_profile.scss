@@ -1,0 +1,49 @@
+.art-profile {
+	max-width: 1024px;
+	width: 100%;
+	margin: 0 auto;
+	&__name {
+		/*
+		display: inline-block;
+		width: 30%;
+		padding: 400px 0 0;
+		text-align: center;
+		vertical-align: top;
+		background: url("https://placehold.jp/180x400.png") top center no-repeat;
+		*/
+	}
+	&__column {
+		display: block;
+		width: 70%;
+		vertical-align: top;
+		margin: 0 auto;
+		&-feature {
+		    background: #795548;
+			color: #fff;
+			padding: 20px 40px;
+			margin-top: 20px;
+			border-radius: 40px;
+		}
+	}
+}
+@media screen and (max-width: 768px) {
+	.art-profile {
+		&__name {
+			display: none;
+		}
+		&__column {
+			display: block;
+			max-width: 500px;
+			width: 98%;
+			margin: 0 auto;
+			&-feature {
+				background: #795548;
+				color: #fff;
+				padding: 15px 20px;
+				margin-top: 10px;
+				border-radius: 10px;
+				font-size: 14px;
+			}
+		}
+	}
+}
