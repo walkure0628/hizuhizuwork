@@ -1,0 +1,10 @@
+/node_modules/
+/guide/
+
+
+/pass.txt
+/dist/.htaccess
+/dist/.htpasswd
+/dist/assets/css/
+/dist/assets/js/common.
+/dist/assets/images/portfolio.pdf
